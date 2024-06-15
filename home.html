@@ -1,23 +1,31 @@
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
-	<title>CODE CLAUSE Quiz Application</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
+  <title>CODE CLAUSE Quiz App</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-
-	<main class="Sttt">
-        <div class="open">
-
-            <header>
-                <h1 style="vertical-align: 20rem;">Welcome to the Quiz Application</h1>
-            </header>
-            <div class="pic">
-                <img src="images/picture.jpg" class="imagee">
-            </div>
-            <h3><a href="index.html"><img src="images/arrowbutton.jpg" class="go"></a> </h3>  
-        </div>
-       
-	</main>
+  <div class="quiz-container">
+   
+    <!-- <img src="images/quizbackground.jpg" alt="" class="quizimg"> -->
+    <h1>Quiz App</h1>
+      <h4 class="heading">ANSWER THE QUESTION</h4>
+    <div id="question-container">
+      <p id="question-text"></p>
+      <div id="answer-buttons"></div>
+    </div>
+    <div id="controls-container">
+      
+      <button id="start-button" class="startbutton">Start Quiz</button>
+      <div id="timer-container">
+        <span id="timer-text">Time Left: <span id="timer">0</span></span>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
-</html>
+</html> 
+
