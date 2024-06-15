@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+   
+    color: rgb(27, 21, 217);
+}
+.link{
+    text-decoration: none;
+    color:rgb(27, 21, 217);
+}
+.imagee{
+    height: 30rem;
+    width: 60rem;
+}
+.go{
+    height: 2rem;
+    width: 2rem;
+}
